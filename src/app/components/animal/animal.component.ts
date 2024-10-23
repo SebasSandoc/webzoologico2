@@ -33,7 +33,7 @@ export class AnimalComponent {
     });
   }
   newAnimalEntry() {
-    console.log("prueba");
+    
     this.animalService.newAnimal( this.animalForm.value).subscribe(
       () => {
         //Redirigiendo a la ruta actual /animal y recargando la ventana
